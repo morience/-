@@ -1,0 +1,9 @@
+<import src="../../components/tutorial-list/tutorialList.wxml"/>
+<view>
+  <template
+    is="tutorialList"
+    data="{{list}}"
+  />
+</view>
+
+ <button type="default" bindtap="calling">拨打120</button>

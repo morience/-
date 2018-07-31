@@ -1,0 +1,48 @@
+{
+  "pages":[
+    "pages/tutorial/tutorial",
+    "pages/appeal/appeal",
+    "pages/isBreath/isBreath",
+    "pages/unconsciousnessStudy/unconsciousnessStudy",
+    "pages/finger/finger",
+    "pages/breathe/breathe",
+    "pages/burning/burning",
+    "pages/heartache/heartache",
+    "pages/okbeng/okbeng",
+    "pages/weasand/weasand",
+    "pages/t/t",
+      "pages/search/search",
+    "pages/regeocoding/regeocoding"
+      ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "救救宝贝",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "color": "#B2BEC1",
+    "selectedColor": "#FA5834",
+    "list": [{
+      "pagePath": "pages/tutorial/tutorial",
+      "text": "教程",
+      "iconPath": "./assets/images/tutorial-tabbar.png",
+      "selectedIconPath": "./assets/images/selected-tutorial-tabbar.png"
+    }, 
+    {
+      "pagePath": "pages/search/search",
+      "text": "附近医院",
+      "iconPath": "./assets/images/appeal-tabbar.png",
+      "selectedIconPath": "./assets/images/selected-appeal-tabbar.png"
+    },
+    {
+      "pagePath": "pages/regeocoding/regeocoding",
+      "text": "抢救路线",
+      "iconPath": "./assets/images/appeal-tabbar.png",
+      "selectedIconPath": "./assets/images/selected-appeal-tabbar.png"
+    }]
+  }
+
+}
